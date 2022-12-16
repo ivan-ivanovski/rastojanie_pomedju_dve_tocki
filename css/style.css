@@ -1,0 +1,101 @@
+@font-face {
+    font-family: robotomono;
+    src: url('../assets/fonts/RobotoMono-VariableFont_wght.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-family: Tahoma,sans-serif;
+    overflow: hidden;
+}
+
+h1{
+    padding: 32px;
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color:#fac744;
+    color: #000;
+    font-weight: 300;
+}
+.tocka-container{
+    display: block;
+    max-width: 1200px;
+    padding: 32px;
+    margin: 0 auto;
+    text-align: justify;
+    justify-content: center;
+
+}
+label{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px auto;
+    width: 35%;
+    border: 1px solid black;
+    font-size:1rem;
+}
+input{
+    display: inline-block;
+    padding: 5px;
+    width: 30%;
+    border: 1px solid black;
+    font-size: 1rem;
+    margin: 0 auto;
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button{
+    display: inline-block;
+    background-color: #fac744;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 250px;
+}
+#btnNoviVrednosti{
+    background-color: crimson;
+    color: #fff;
+
+}
+.tockaKoordinati{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px auto;
+}
+
+footer{
+    background:#fac744;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    padding: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+
+    display: inline-block;
+    vertical-align: middle;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1rem;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tocki</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Presmetuvanje na rastojanie na dve tocki</h1>
+    <div class="tocka-container" id="tocka-container">
+        <h2>Vnesi gi koordinati x i y: </h2>
+        <div class="tocka1" id="tocka1">
+            <label for="tocka1" id="tocka1-lbl">Tocka1(x,y): </label>
+            <input type="number" id="tocka1-x" placeholder="VREDNOST ZA X">
+            <input type="number" id="tocka1-y" placeholder="VREDNOST ZA Y">    
+        </div>
+        <div class="tocka2" id="tocka2">
+            <label for="tocka2" id="tocka2-lbl">Tocka2(x,y): </label>
+            <input type="number" id="tocka2-x" placeholder="VREDNOST ZA X">
+            <input type="number" id="tocka2-y" placeholder="VREDNOST ZA Y">    
+        </div>
+        <button id="btnPresmetajRastojanie">Presmetaj go rastojanie</button>
+        <button id="btnNoviVrednosti">Novi vrednosti</button>
+        <br>
+        <br>
+        <p class="tockaKoordinati">Rastojanie pomegju Tocka1(<span id="x1"></span>,<span id="y1"></span>) i Tocka2(<span id="x2"></span>,<span id="y2"></span>) iznesuvaa <span id="rastojanie"></span> </p>
+    </div>
+    <footer>
+        <p>Made by &copy; Ivan Ivanovski <span><script>document.write((new Date().getFullYear()))</script></span> </p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
