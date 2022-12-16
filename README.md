@@ -5,3 +5,5 @@
 <img src="pocetna_bez_vrednosti_tocki_1.PNG" alt="Izgled na stranicata" style="width:100%;height:100%;">
 <br>
 <img src="pocetna_so_vrednosti_tocki_1.PNG" alt="Izgled na stranicata" style="width:100%;height:100%;">
+
+<h3>Fast link: https://rastojanie-pomedju-dve-tocki.netlify.app </h3>
