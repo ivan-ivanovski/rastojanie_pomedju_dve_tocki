@@ -1,1 +1,1 @@
-# rastojanie_pomedju_dve_tocki
+## Пресметување на растојание помеѓу две точки изработено со користење на HTML5,CSS3 & JavaScript.
