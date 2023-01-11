@@ -52,6 +52,9 @@ $(document).ready(function (){
     $("#alert_dialog").dialog({
         autoOpen: false,
         modal:true,
+        width:400,
+        height:400,
+        resizable:false,
     })
 
     function disabledTocki(){
