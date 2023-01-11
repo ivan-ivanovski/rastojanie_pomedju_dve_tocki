@@ -28,7 +28,7 @@ btnPresmetajRastojanie.addEventListener("click", (e)=>{
     let y2 = document.getElementById("y2").innerHTML = tocka2[1].value
     
     if (x1 == null || x1 == "", y1 == null || y2 == "", x2 == null || x2 == "", y2== null || y2 == "") {
-        alert("Vnesi soodvetni vrednosti za koordinatite x i y na dvete tocki.");
+        alert("Не ги внесовте вредностите за x, y или погрешно внесени вредности");
         unDisableTicki()
         return false;
     }
