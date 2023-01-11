@@ -28,7 +28,7 @@ $(document).ready(function (){
         let y2 = document.getElementById("y2").innerHTML = tocka2[1].value
         
         if (x1 == null || x1 == "", y1 == null || y2 == "", x2 == null || x2 == "", y2== null || y2 == "") {
-            
+            $("#alert_dialog").dialog('open')
             unDisableTicki()
             return false;
         }
@@ -53,7 +53,7 @@ $(document).ready(function (){
         autoOpen: false,
         modal:true,
     })
-    
+
     function disabledTocki(){
         tocka1[0].disabled = true
         tocka1[1].disabled = true
