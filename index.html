@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Точка</title>
+    <link rel="stylesheet" href="./css/jquery-ui.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -27,12 +28,17 @@
         <br>
         <p class="tockaKoordinati">Растојание од точката1 (<span id="x1"></span>,<span id="y1"></span>) до точката 2(<span id="x2"></span>,<span id="y2"></span>) изнесуваа <span id="rastojanie"></span> </p>
     </div>
+    <div id="alert_dialog">
+        <h3>Не внесовте вредности за x, y или погрешен влез</h3>
+    </div>
     <footer>
         <p>Израбетно од страна на &copy; Иван Ивановски <span><script>document.write((new Date().getFullYear()))</script></span> </p>
     </footer>
     <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+
     <script src="./js/script.js"></script>
-    
+
 
 </body>
 </html>
