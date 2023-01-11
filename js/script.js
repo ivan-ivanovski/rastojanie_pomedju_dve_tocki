@@ -28,7 +28,10 @@ $(document).ready(function (){
         let y2 = document.getElementById("y2").innerHTML = tocka2[1].value
         
         if (x1 == null || x1 == "", y1 == null || y2 == "", x2 == null || x2 == "", y2== null || y2 == "") {
-            alert("Не внесовте вредности за x, y или погрешен влез")
+            $("#alert_dialog").dialog({
+                autoOpen: false,
+                modal:true,
+            })
             unDisableTicki()
             return false;
         }
