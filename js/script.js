@@ -54,9 +54,9 @@ $(document).ready(function (){
         modal:true,
         width:400,
         height:400,
-        resizable:false,
-        title: "Грешка",
+        resizable: false,
         draggable: false,
+        title: "Грешка",
     })
 
     function disabledTocki(){
