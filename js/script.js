@@ -52,8 +52,8 @@ $(document).ready(function (){
     $("#alert_dialog").dialog({
         autoOpen: false,
         modal:true,
-        width:400,
-        height:400,
+        width:600,
+        height:100,
         resizable: false,
         draggable: false,
         title: "Грешка",
